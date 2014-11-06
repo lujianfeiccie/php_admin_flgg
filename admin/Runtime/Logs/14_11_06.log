@@ -1,0 +1,171 @@
+[ 2014-11-06T10:57:58+08:00 ] /admin.php/Login/index/ | INFO: Tag[ route_check ] --START--
+[ 2014-11-06T10:57:58+08:00 ] /admin.php/Login/index/ | INFO: Run CheckRoute Behavior [ RunTime:0.001152s ]
+[ 2014-11-06T10:57:58+08:00 ] /admin.php/Login/index/ | INFO: Tag[ route_check ] --END-- [ RunTime:0.001259s ]
+[ 2014-11-06T10:57:58+08:00 ] /admin.php/Login/index/ | INFO: Tag[ app_begin ] --START--
+[ 2014-11-06T10:57:58+08:00 ] /admin.php/Login/index/ | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000513s ]
+[ 2014-11-06T10:57:58+08:00 ] /admin.php/Login/index/ | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000578s ]
+[ 2014-11-06T10:57:58+08:00 ] /admin.php/Login/index/ | INFO: Tag[ view_template ] --START--
+[ 2014-11-06T10:57:58+08:00 ] /admin.php/Login/index/ | INFO: Run LocationTemplate Behavior [ RunTime:0.000714s ]
+[ 2014-11-06T10:57:58+08:00 ] /admin.php/Login/index/ | INFO: Tag[ view_template ] --END-- [ RunTime:0.000795s ]
+[ 2014-11-06T10:57:58+08:00 ] /admin.php/Login/index/ | INFO: Tag[ view_parse ] --START--
+[ 2014-11-06T10:57:58+08:00 ] /admin.php/Login/index/ | INFO: Run ParseTemplate Behavior [ RunTime:0.008932s ]
+[ 2014-11-06T10:57:58+08:00 ] /admin.php/Login/index/ | INFO: Tag[ view_parse ] --END-- [ RunTime:0.009034s ]
+[ 2014-11-06T10:57:58+08:00 ] /admin.php/Login/index/ | INFO: Tag[ view_filter ] --START--
+[ 2014-11-06T10:57:58+08:00 ] /admin.php/Login/index/ | INFO: Run ContentReplace Behavior [ RunTime:0.000305s ]
+[ 2014-11-06T10:57:58+08:00 ] /admin.php/Login/index/ | INFO: Run TokenBuild Behavior [ RunTime:0.000405s ]
+[ 2014-11-06T10:57:58+08:00 ] /admin.php/Login/index/ | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000171s ]
+[ 2014-11-06T10:57:58+08:00 ] /admin.php/Login/index/ | INFO: Run ShowRuntime Behavior [ RunTime:0.000378s ]
+[ 2014-11-06T10:57:58+08:00 ] /admin.php/Login/index/ | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001398s ]
+[ 2014-11-06T10:57:58+08:00 ] /admin.php/Login/index/ | INFO: Tag[ view_end ] --START--
+[ 2014-11-06T10:57:58+08:00 ] /admin.php/Login/index/ | INFO: Run ShowPageTrace Behavior [ RunTime:0.000356s ]
+[ 2014-11-06T10:57:58+08:00 ] /admin.php/Login/index/ | INFO: Tag[ view_end ] --END-- [ RunTime:0.000404s ]
+[ 2014-11-06T10:57:58+08:00 ] /admin.php/Common/verify | INFO: Tag[ route_check ] --START--
+[ 2014-11-06T10:57:58+08:00 ] /admin.php/Common/verify | INFO: Run CheckRoute Behavior [ RunTime:0.001352s ]
+[ 2014-11-06T10:57:58+08:00 ] /admin.php/Common/verify | INFO: Tag[ route_check ] --END-- [ RunTime:0.001580s ]
+[ 2014-11-06T10:57:58+08:00 ] /admin.php/Common/verify | INFO: Tag[ app_begin ] --START--
+[ 2014-11-06T10:57:58+08:00 ] /admin.php/Common/verify | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000718s ]
+[ 2014-11-06T10:57:58+08:00 ] /admin.php/Common/verify | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000812s ]
+[ 2014-11-06T10:58:12+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Tag[ route_check ] --START--
+[ 2014-11-06T10:58:12+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Run CheckRoute Behavior [ RunTime:0.000906s ]
+[ 2014-11-06T10:58:12+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Tag[ route_check ] --END-- [ RunTime:0.001029s ]
+[ 2014-11-06T10:58:12+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Tag[ app_begin ] --START--
+[ 2014-11-06T10:58:12+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000573s ]
+[ 2014-11-06T10:58:12+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000646s ]
+[ 2014-11-06T10:58:12+08:00 ] /admin.php/Index/index/username/alexwang | SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.003915s ]
+[ 2014-11-06T10:58:12+08:00 ] /admin.php/Index/index/username/alexwang | SQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.002113s ]
+[ 2014-11-06T10:58:12+08:00 ] /admin.php/Index/index/username/alexwang | SQL: SELECT `id`,`subject`,`author`,`createtime` FROM `think_article` ORDER BY id desc LIMIT 0,8   [ RunTime:0.000418s ]
+[ 2014-11-06T10:58:12+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Tag[ view_template ] --START--
+[ 2014-11-06T10:58:12+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Run LocationTemplate Behavior [ RunTime:0.001149s ]
+[ 2014-11-06T10:58:12+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Tag[ view_template ] --END-- [ RunTime:0.001227s ]
+[ 2014-11-06T10:58:12+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Tag[ view_parse ] --START--
+[ 2014-11-06T10:58:12+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Run ParseTemplate Behavior [ RunTime:0.029243s ]
+[ 2014-11-06T10:58:12+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Tag[ view_parse ] --END-- [ RunTime:0.029353s ]
+[ 2014-11-06T10:58:12+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Tag[ view_filter ] --START--
+[ 2014-11-06T10:58:12+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Run ContentReplace Behavior [ RunTime:0.000583s ]
+[ 2014-11-06T10:58:12+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Run TokenBuild Behavior [ RunTime:0.000804s ]
+[ 2014-11-06T10:58:12+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000459s ]
+[ 2014-11-06T10:58:12+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Run ShowRuntime Behavior [ RunTime:0.000606s ]
+[ 2014-11-06T10:58:12+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002620s ]
+[ 2014-11-06T10:58:12+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Tag[ view_end ] --START--
+[ 2014-11-06T10:58:12+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Run ShowPageTrace Behavior [ RunTime:0.000856s ]
+[ 2014-11-06T10:58:12+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Tag[ view_end ] --END-- [ RunTime:0.000940s ]
+[ 2014-11-06T11:00:11+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Tag[ route_check ] --START--
+[ 2014-11-06T11:00:11+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Run CheckRoute Behavior [ RunTime:0.001239s ]
+[ 2014-11-06T11:00:11+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Tag[ route_check ] --END-- [ RunTime:0.001356s ]
+[ 2014-11-06T11:00:11+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Tag[ app_begin ] --START--
+[ 2014-11-06T11:00:11+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000839s ]
+[ 2014-11-06T11:00:11+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000903s ]
+[ 2014-11-06T11:00:11+08:00 ] /admin.php/Index/index/username/alexwang | SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.003296s ]
+[ 2014-11-06T11:00:11+08:00 ] /admin.php/Index/index/username/alexwang | SQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.000389s ]
+[ 2014-11-06T11:00:11+08:00 ] /admin.php/Index/index/username/alexwang | SQL: SELECT `id`,`subject`,`author`,`createtime` FROM `think_article` ORDER BY id desc LIMIT 0,8   [ RunTime:0.000346s ]
+[ 2014-11-06T11:00:11+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Tag[ view_template ] --START--
+[ 2014-11-06T11:00:11+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Run LocationTemplate Behavior [ RunTime:0.000980s ]
+[ 2014-11-06T11:00:11+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Tag[ view_template ] --END-- [ RunTime:0.001046s ]
+[ 2014-11-06T11:00:11+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Tag[ view_parse ] --START--
+[ 2014-11-06T11:00:11+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Run ParseTemplate Behavior [ RunTime:0.013628s ]
+[ 2014-11-06T11:00:11+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Tag[ view_parse ] --END-- [ RunTime:0.013751s ]
+[ 2014-11-06T11:00:11+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Tag[ view_filter ] --START--
+[ 2014-11-06T11:00:11+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Run ContentReplace Behavior [ RunTime:0.000725s ]
+[ 2014-11-06T11:00:11+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Run TokenBuild Behavior [ RunTime:0.000772s ]
+[ 2014-11-06T11:00:11+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000527s ]
+[ 2014-11-06T11:00:11+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Run ShowRuntime Behavior [ RunTime:0.000718s ]
+[ 2014-11-06T11:00:11+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002913s ]
+[ 2014-11-06T11:00:11+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Tag[ view_end ] --START--
+[ 2014-11-06T11:00:11+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Run ShowPageTrace Behavior [ RunTime:0.000725s ]
+[ 2014-11-06T11:00:11+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Tag[ view_end ] --END-- [ RunTime:0.000783s ]
+[ 2014-11-06T11:10:01+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Tag[ route_check ] --START--
+[ 2014-11-06T11:10:01+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Run CheckRoute Behavior [ RunTime:0.001303s ]
+[ 2014-11-06T11:10:01+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Tag[ route_check ] --END-- [ RunTime:0.001433s ]
+[ 2014-11-06T11:10:01+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Tag[ app_begin ] --START--
+[ 2014-11-06T11:10:01+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000925s ]
+[ 2014-11-06T11:10:01+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000997s ]
+[ 2014-11-06T11:10:01+08:00 ] /admin.php/Index/index/username/alexwang | SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.003978s ]
+[ 2014-11-06T11:10:01+08:00 ] /admin.php/Index/index/username/alexwang | SQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.000373s ]
+[ 2014-11-06T11:10:01+08:00 ] /admin.php/Index/index/username/alexwang | SQL: SELECT `id`,`subject`,`author`,`createtime` FROM `think_article` ORDER BY id desc LIMIT 0,8   [ RunTime:0.000343s ]
+[ 2014-11-06T11:10:01+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Tag[ view_template ] --START--
+[ 2014-11-06T11:10:01+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Run LocationTemplate Behavior [ RunTime:0.000871s ]
+[ 2014-11-06T11:10:01+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Tag[ view_template ] --END-- [ RunTime:0.000925s ]
+[ 2014-11-06T11:10:01+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Tag[ view_parse ] --START--
+[ 2014-11-06T11:10:02+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Run ParseTemplate Behavior [ RunTime:0.279368s ]
+[ 2014-11-06T11:10:02+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Tag[ view_parse ] --END-- [ RunTime:0.279464s ]
+[ 2014-11-06T11:10:02+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Tag[ view_filter ] --START--
+[ 2014-11-06T11:10:02+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Run ContentReplace Behavior [ RunTime:0.000627s ]
+[ 2014-11-06T11:10:02+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Run TokenBuild Behavior [ RunTime:0.000686s ]
+[ 2014-11-06T11:10:02+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000457s ]
+[ 2014-11-06T11:10:02+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Run ShowRuntime Behavior [ RunTime:0.000731s ]
+[ 2014-11-06T11:10:02+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002672s ]
+[ 2014-11-06T11:10:02+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Tag[ view_end ] --START--
+[ 2014-11-06T11:10:02+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Run ShowPageTrace Behavior [ RunTime:0.000751s ]
+[ 2014-11-06T11:10:02+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Tag[ view_end ] --END-- [ RunTime:0.000830s ]
+[ 2014-11-06T11:10:02+08:00 ] /admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Tag[ route_check ] --START--
+[ 2014-11-06T11:10:02+08:00 ] /admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Run CheckRoute Behavior [ RunTime:0.001427s ]
+[ 2014-11-06T11:10:02+08:00 ] /admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Tag[ route_check ] --END-- [ RunTime:0.001593s ]
+[ 2014-11-06T11:10:02+08:00 ] /admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Tag[ app_begin ] --START--
+[ 2014-11-06T11:10:02+08:00 ] /admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001041s ]
+[ 2014-11-06T11:10:02+08:00 ] /admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001122s ]
+[ 2014-11-06T11:10:02+08:00 ] /admin.php/Index/index/username/resources/images/closelabel.gif | SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.002605s ]
+[ 2014-11-06T11:10:02+08:00 ] /admin.php/Index/index/username/resources/images/closelabel.gif | SQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.000221s ]
+[ 2014-11-06T11:10:02+08:00 ] /admin.php/Index/index/username/resources/images/closelabel.gif | SQL: SELECT `id`,`subject`,`author`,`createtime` FROM `think_article` ORDER BY id desc LIMIT 0,8   [ RunTime:0.000208s ]
+[ 2014-11-06T11:10:02+08:00 ] /admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Tag[ view_template ] --START--
+[ 2014-11-06T11:10:02+08:00 ] /admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Run LocationTemplate Behavior [ RunTime:0.000839s ]
+[ 2014-11-06T11:10:02+08:00 ] /admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Tag[ view_template ] --END-- [ RunTime:0.000894s ]
+[ 2014-11-06T11:10:02+08:00 ] /admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Tag[ view_parse ] --START--
+[ 2014-11-06T11:10:02+08:00 ] /admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Run ParseTemplate Behavior [ RunTime:0.008824s ]
+[ 2014-11-06T11:10:02+08:00 ] /admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Tag[ view_parse ] --END-- [ RunTime:0.008920s ]
+[ 2014-11-06T11:10:02+08:00 ] /admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Tag[ view_filter ] --START--
+[ 2014-11-06T11:10:02+08:00 ] /admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Run ContentReplace Behavior [ RunTime:0.000563s ]
+[ 2014-11-06T11:10:02+08:00 ] /admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Run TokenBuild Behavior [ RunTime:0.000557s ]
+[ 2014-11-06T11:10:02+08:00 ] /admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000434s ]
+[ 2014-11-06T11:10:02+08:00 ] /admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Run ShowRuntime Behavior [ RunTime:0.000609s ]
+[ 2014-11-06T11:10:02+08:00 ] /admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Tag[ view_filter ] --END-- [ RunTime:0.002306s ]
+[ 2014-11-06T11:10:02+08:00 ] /admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Tag[ view_end ] --START--
+[ 2014-11-06T11:10:02+08:00 ] /admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Run ShowPageTrace Behavior [ RunTime:0.000622s ]
+[ 2014-11-06T11:10:02+08:00 ] /admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Tag[ view_end ] --END-- [ RunTime:0.000670s ]
+[ 2014-11-06T11:31:28+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Tag[ route_check ] --START--
+[ 2014-11-06T11:31:28+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Run CheckRoute Behavior [ RunTime:0.002758s ]
+[ 2014-11-06T11:31:28+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Tag[ route_check ] --END-- [ RunTime:0.002911s ]
+[ 2014-11-06T11:31:28+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Tag[ app_begin ] --START--
+[ 2014-11-06T11:31:28+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Run ReadHtmlCache Behavior [ RunTime:0.001651s ]
+[ 2014-11-06T11:31:28+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Tag[ app_begin ] --END-- [ RunTime:0.001742s ]
+[ 2014-11-06T11:31:28+08:00 ] /admin.php/Index/index/username/alexwang | SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.003967s ]
+[ 2014-11-06T11:31:28+08:00 ] /admin.php/Index/index/username/alexwang | SQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.000363s ]
+[ 2014-11-06T11:31:28+08:00 ] /admin.php/Index/index/username/alexwang | SQL: SELECT `id`,`subject`,`author`,`createtime` FROM `think_article` ORDER BY id desc LIMIT 0,8   [ RunTime:0.000566s ]
+[ 2014-11-06T11:31:28+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Tag[ view_template ] --START--
+[ 2014-11-06T11:31:28+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Run LocationTemplate Behavior [ RunTime:0.002415s ]
+[ 2014-11-06T11:31:28+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Tag[ view_template ] --END-- [ RunTime:0.002511s ]
+[ 2014-11-06T11:31:28+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Tag[ view_parse ] --START--
+[ 2014-11-06T11:31:28+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Run ParseTemplate Behavior [ RunTime:0.036528s ]
+[ 2014-11-06T11:31:28+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Tag[ view_parse ] --END-- [ RunTime:0.036641s ]
+[ 2014-11-06T11:31:28+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Tag[ view_filter ] --START--
+[ 2014-11-06T11:31:28+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Run ContentReplace Behavior [ RunTime:0.001396s ]
+[ 2014-11-06T11:31:28+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Run TokenBuild Behavior [ RunTime:0.002770s ]
+[ 2014-11-06T11:31:28+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Run WriteHtmlCache Behavior [ RunTime:0.001191s ]
+[ 2014-11-06T11:31:28+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Run ShowRuntime Behavior [ RunTime:0.001417s ]
+[ 2014-11-06T11:31:28+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Tag[ view_filter ] --END-- [ RunTime:0.007074s ]
+[ 2014-11-06T11:31:28+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Tag[ view_end ] --START--
+[ 2014-11-06T11:31:28+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Run ShowPageTrace Behavior [ RunTime:0.001403s ]
+[ 2014-11-06T11:31:28+08:00 ] /admin.php/Index/index/username/alexwang | INFO: Tag[ view_end ] --END-- [ RunTime:0.001499s ]
+[ 2014-11-06T11:31:28+08:00 ] /admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Tag[ route_check ] --START--
+[ 2014-11-06T11:31:28+08:00 ] /admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Run CheckRoute Behavior [ RunTime:0.001198s ]
+[ 2014-11-06T11:31:28+08:00 ] /admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Tag[ route_check ] --END-- [ RunTime:0.001419s ]
+[ 2014-11-06T11:31:28+08:00 ] /admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Tag[ app_begin ] --START--
+[ 2014-11-06T11:31:28+08:00 ] /admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Run ReadHtmlCache Behavior [ RunTime:0.000552s ]
+[ 2014-11-06T11:31:28+08:00 ] /admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Tag[ app_begin ] --END-- [ RunTime:0.000672s ]
+[ 2014-11-06T11:31:28+08:00 ] /admin.php/Index/index/username/resources/images/closelabel.gif | SQL: SHOW COLUMNS FROM `think_article` [ RunTime:0.003150s ]
+[ 2014-11-06T11:31:28+08:00 ] /admin.php/Index/index/username/resources/images/closelabel.gif | SQL: SELECT COUNT(*) AS tp_count FROM `think_article` LIMIT 1   [ RunTime:0.000314s ]
+[ 2014-11-06T11:31:28+08:00 ] /admin.php/Index/index/username/resources/images/closelabel.gif | SQL: SELECT `id`,`subject`,`author`,`createtime` FROM `think_article` ORDER BY id desc LIMIT 0,8   [ RunTime:0.000254s ]
+[ 2014-11-06T11:31:28+08:00 ] /admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Tag[ view_template ] --START--
+[ 2014-11-06T11:31:28+08:00 ] /admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Run LocationTemplate Behavior [ RunTime:0.000361s ]
+[ 2014-11-06T11:31:28+08:00 ] /admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Tag[ view_template ] --END-- [ RunTime:0.000416s ]
+[ 2014-11-06T11:31:28+08:00 ] /admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Tag[ view_parse ] --START--
+[ 2014-11-06T11:31:29+08:00 ] /admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Run ParseTemplate Behavior [ RunTime:0.007681s ]
+[ 2014-11-06T11:31:29+08:00 ] /admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Tag[ view_parse ] --END-- [ RunTime:0.007760s ]
+[ 2014-11-06T11:31:29+08:00 ] /admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Tag[ view_filter ] --START--
+[ 2014-11-06T11:31:29+08:00 ] /admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Run ContentReplace Behavior [ RunTime:0.000291s ]
+[ 2014-11-06T11:31:29+08:00 ] /admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Run TokenBuild Behavior [ RunTime:0.000296s ]
+[ 2014-11-06T11:31:29+08:00 ] /admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Run WriteHtmlCache Behavior [ RunTime:0.000180s ]
+[ 2014-11-06T11:31:29+08:00 ] /admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Run ShowRuntime Behavior [ RunTime:0.000350s ]
+[ 2014-11-06T11:31:29+08:00 ] /admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Tag[ view_filter ] --END-- [ RunTime:0.001272s ]
+[ 2014-11-06T11:31:29+08:00 ] /admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Tag[ view_end ] --START--
+[ 2014-11-06T11:31:29+08:00 ] /admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Run ShowPageTrace Behavior [ RunTime:0.000580s ]
+[ 2014-11-06T11:31:29+08:00 ] /admin.php/Index/index/username/resources/images/closelabel.gif | INFO: Tag[ view_end ] --END-- [ RunTime:0.000666s ]
